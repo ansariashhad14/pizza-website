@@ -1,0 +1,487 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capi talize;
+}
+
+body {
+    background: white
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    padding: 2rem 9%;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    text-transform: capitalize;
+}
+
+.video-background {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+    /* Places the video behind other content */
+}
+
+video {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+    /* Ensures the video covers the area without distortion */
+}
+
+.content2 {
+    transition: all 0.3s ease;
+}
+
+.content2:hover {
+    transform: scale(1.05);
+}
+
+header .logo {
+    font-size: 35px;
+    font-weight: bolder;
+    color: orangered;
+}
+
+header .logo {
+    padding-right: 5px;
+    color: black;
+}
+
+header .logo:hover {
+    color: red;
+}
+
+header .navbar a {
+    font-size: 25px;
+    margin-left: 2rem;
+    color: #666;
+}
+
+header .navbar a:hover {
+    color: red;
+}
+
+.main1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap;
+    font-size: 20px;
+}
+
+.content2 img {
+    position: relative;
+    border: 5px solid #c2c3c4;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    width: 100%;
+    max-width: 350px;
+    background-color: #fff;
+    padding: 10px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.content2 img {
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    object-fit: cover;
+    transition: opacity 0.3s ease;
+}
+
+.content {
+    width: 500px;
+}
+
+.button1 {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: orangered;
+    border-radius: 4px;
+    margin-right: 20px;
+    color: white;
+    font-size: 17px;
+}
+
+.button1:hover {
+    color: white;
+    background-color: green;
+    border-radius: 5px;
+    color: black;
+    font-weight: 700;
+}
+
+.content h3 {
+    margin-left: 5px;
+    font-size: 35px;
+    padding-top: 200px;
+    color: orangered;
+}
+
+.content p {
+    padding-top: 10px;
+    font-size: 18px;
+}
+
+.image img {
+    width: 500px;
+    padding-top: 80px;
+    margin-left: 70px;
+}
+
+.text1 h2 {
+    text-align: center;
+    /* background-color: crimson; */
+    height: 50px;
+    margin-top: 20px;
+    padding-top: 10px;
+    font-size: 40px;
+}
+
+span {
+    color: red;
+}
+
+.private {
+    background-color: beige;
+}
+
+.main2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 30px;
+    color: blue;
+}
+
+.gallery {
+    transition: all 0.3s ease;
+}
+
+.gallery:hover {
+    transform: scale(1.05);
+}
+
+.content2 {
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.content2 img {
+    height: 250px;
+    width: 250px;
+}
+
+.content2 h6 {
+    background-color: red;
+    color: white;
+    height: 15px;
+    width: 40px;
+}
+
+.content2 h4 {
+    text-align: center;
+}
+
+.content2 p {
+    text-align: center;
+    color: gold;
+}
+
+.page {
+    border: 2px solid black;
+}
+
+.button2 {
+    text-align: center;
+    padding-block: 10px;
+}
+
+.button3 {
+    text-align: center;
+    padding-block: 10px;
+}
+
+.button4 {
+    text-align: center;
+    padding-block: 10px;
+}
+
+.button2 button {
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: orangered;
+    color: white;
+}
+
+.button2 :hover {
+    color: white;
+    background-color: rgb(24, 88, 8);
+    color: black;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.button3 button {
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: orangered;
+    color: white;
+}
+
+.button3 :hover {
+    color: white;
+    background-color: rgb(24, 88, 8);
+    border-radius: 5px;
+    color: black;
+    font-weight: 700;
+
+}
+
+.button4 button {
+    height: 40px;
+    width: 100px;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: orangered;
+    color: white;
+}
+
+.button4 :hover {
+    color: white;
+    background-color: rgb(24, 88, 8);
+    border-radius: 5px;
+    color: black;
+    font-weight: 700;
+}
+
+.content6 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
+    align-items: center;
+    text-align: center;
+}
+
+#text2 {
+    text-align: center;
+    margin-top: 30px;
+    padding-bottom: 40px;
+}
+
+.first img {
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+}
+
+.main3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.gallery img {
+    position: relative;
+    border: 5px solid #c2c3c4;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    flex-direction: column;
+    overflow: hidden;
+    width: 100%;
+    max-width: 350px;
+    background-color: #fff;
+    padding: 10px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.private2 h3 {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 40px;
+}
+
+.gallery img {
+    height: 300px;
+    width: 250px;
+    max-height: 200px;
+    object-fit: cover;
+    transition: opacity 0.3s ease;
+}
+
+.now {
+    text-align: center;
+    font-size: 25px;
+    padding-top: 30px;
+}
+
+.main8 {
+    height: 40%;
+    width: 100%;
+    background-color: whitesmoke
+}
+
+#text {
+    width: 50%;
+    font-size: 20px;
+}
+
+#text1 {
+    height: 80px;
+    width: 50%;
+    font-size: 20px;
+    padding-bottom: 100px;
+}
+
+#address {
+    height: 80px;
+}
+
+.button5 {
+    margin-left: 200px;
+    text-align: center;
+    margin-left: 15%;
+    padding-bottom: 100px;
+}
+
+.button5 button {
+    height: 60px;
+    width: 130px;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: orangered;
+    color: white;
+}
+
+.button5 :hover {
+    color: white;
+    background-color: rgb(24, 88, 8);
+    border-radius: 5px;
+    color: black;
+    font-weight: 700;
+}
+
+.navbar2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 100px;
+    background-color: black;
+    width: 100%;
+    height: 60%;
+    padding-top: 20px;
+}
+
+.navbar2 button {
+    height: 20px;
+    width: 140px;
+    color: red;
+    background-color: black;
+    font-size: 20px;
+}
+
+.navbar2 :hover {
+    color: white;
+    background-color: red;
+}
+
+.main8 input {
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 40%;
+    height: 30px;
+    margin: 10px;
+    margin-left: 100px;
+    font-size: 15px;
+}
+
+.now {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+@media (max-width:600px) {
+    .content h3{
+        padding-top: 20px;
+        padding-inline: 20px;
+    }
+    .content p {
+         padding-inline: 20px;
+    }
+    .button1{
+        margin-left: 20px;
+    }
+    .image img{
+        width: 300px;
+        padding-top: 0;
+        margin-left: 0;
+    }
+    header{
+        display: none;
+    }
+    .main8 input{
+        width: 93%;
+        padding: 10px;
+        margin-left: 0;
+        margin-inline: 10px;
+    }
+    .content2 img{
+        width: 300px;
+    }
+    .gallery img{
+        width: 300px;
+    }
+    .private2 h3{
+        font-size: 35px;
+    }
+    .button5 button{
+        margin-right: 70px;
+    }
+    .button5{
+        padding-bottom: 20px;
+    }
+    .navbar2{
+        gap: 0;
+        padding: 20px;
+    }
+}
